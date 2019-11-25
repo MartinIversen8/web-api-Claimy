@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.ComponentModel.DataAnnotations;
 
 namespace Web_Api_Claimy.Models
 {
     public class ParkingCompanyTable
     {
         public int fld_CVRNO { get; set; }
-        [required]
+        [Required]
         public string fld_Name { get; set; }
 
         public string fld_Adress { get; set; }
@@ -21,5 +22,8 @@ namespace Web_Api_Claimy.Models
 
         //foreign key
         public int fld_Country { get; set; }
+
+        // Navigation 
+        public CountryListTable country { get; set; }
     }
 }

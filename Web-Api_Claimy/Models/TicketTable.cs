@@ -35,6 +35,9 @@ namespace Web_Api_Claimy.Models
 
         // Navigation Property 
         public CustomerTable customer { get; set; }
+        public ParkingCompanyTable parkingCompany { get; set; }
+
+
 
     }
 }

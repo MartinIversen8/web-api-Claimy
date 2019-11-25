@@ -17,6 +17,8 @@ namespace Web_Api_Claimy.Models
     public int empID { get; set; }
     public int customerID { get; set; }
      // navigation property '
-     
+     public ClaimyEmployeeTable claimyEmployee { get; set; }
+     public CustomerTable customer { get; set; }
+
 }
 }
