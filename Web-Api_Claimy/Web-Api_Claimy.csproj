@@ -165,6 +165,7 @@
     <Compile Include="Models\CountryListTable.cs" />
     <Compile Include="Models\CustomerTable.cs" />
     <Compile Include="Models\ImageTable.cs" />
+    <Compile Include="Models\ParkingCompanyTable.cs" />
     <Compile Include="Models\TicketTable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
