@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.ComponentModel.DataAnnotations;
 
 namespace Web_Api_Claimy.Models
 {
@@ -21,5 +22,8 @@ namespace Web_Api_Claimy.Models
 
         //foreign key
         public int fld_Country { get; set; }
+
+        // Navigation 
+        public CountryListTable country { get; set; }
     }
 }

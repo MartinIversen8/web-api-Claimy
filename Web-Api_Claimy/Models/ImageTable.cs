@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.ComponentModel.DataAnnotations;
+using System.Drawing;
 
 namespace Web_Api_Claimy.Models
 {
@@ -16,5 +18,7 @@ namespace Web_Api_Claimy.Models
 
         //foreign key
         public int fld_Ticket_ID { get; set; }
+        // property Navigation 
+        public TicketTable ticket { get; set; }
     }
 }
