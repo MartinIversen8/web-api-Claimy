@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="StyleSheet1.scss" />    
+    <title>Claimy</title>
+</head>
+
+
+<body>
+    <div class="informationBar">
+        <a href="#" class="barItemButton">Claimy</a>
+        <a href="#" class="barItemButton">File claim</a>
+        <a href="#" class="barItemButton">About Us</a>
+    </div>
+
+    <div style="overflow-y:auto;" class="column">
+        <table class="InformationBoxes">
+            <tr>
+                <td>
+                    <label style="margin-right: 25px">Name</label>
+                    <input style="border-color:deepskyblue"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label style="margin-right: 25px">City</label>
+                    <input style="border-color:deepskyblue" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label style="margin-right: 25px">Ticket amount</label>
+                    <input style="border-color:deepskyblue" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label style="margin-right: 25px">Parking Department</label>
+                    <input style="border-color:deepskyblue" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label style="margin-right: 25px">Ticket ID</label>
+                    <input style="border-color:deepskyblue" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label style="margin-right: 25px">Time of Day</label>
+                    <input style="border-color:deepskyblue" />
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="ImageBox">
+        <h2>Upload a picture of the fine</h2>
+        <form action="/action_page.php">
+            <input type="file" name="ticketPicture" accept="image/*">
+            <input type="submit" >
+        </form>
+    </div>
+    <div class="ParkingImage">
+        <h2>Upload a picture of your parked car(optional)</h2>
+        <form action="/action_page.php">
+            <input type="file" name="parkingPicture" accept="image/*"/>
+            <input type="submit"/>
+        </form>
+    </div>
+
+</body>
+</html>
