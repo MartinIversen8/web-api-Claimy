@@ -1,0 +1,43 @@
+﻿body {
+    background-image: linear-gradient(to bottom right, green, white);
+}
+
+h1 {
+    color: darkgreen
+}
+
+.informationBar {
+    background-color: black;
+    font-size: 25px;
+}
+
+.barItemButton {
+    background-color: black;
+    color: white;
+}
+
+    .barItemButton:hover {
+        background-color: darkgray;
+        color: white;
+    }
+
+table, th {
+    padding: 25px;
+    text-align: left;
+    border: 5px solid gray;
+}
+
+td {
+    text-align: right;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
