@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
     @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
+    
+    @Scripts.Render("~/bundles/modernizr");
     <link rel="stylesheet" type="text/css" href="~/Content/MenuBarCss.css" />
     <link rel="stylesheet" type="text/css" href="~/Content/FileClaimCss.css" />
     <link />
@@ -23,37 +24,37 @@
             <tr>
                 <td>
                     <label style="margin-right: 25px">Name</label>
-                    <input style="border-color:deepskyblue" />
+                    <input style="border-color:deepskyblue" id="NameTextBox" />
                 </td>
             </tr>
             <tr>
                 <td>
                     <label style="margin-right: 25px">City</label>
-                    <input style="border-color:deepskyblue" />
+                    <input style="border-color:deepskyblue" id="CityTextBox" />
                 </td>
             </tr>
             <tr>
                 <td>
                     <label style="margin-right: 25px">Ticket amount</label>
-                    <input style="border-color:deepskyblue" />
+                    <input style="border-color:deepskyblue" id="TicketAmountTextBox" />
                 </td>
             </tr>
             <tr>
                 <td>
                     <label style="margin-right: 25px">Parking Department</label>
-                    <input style="border-color:deepskyblue" />
+                    <input style="border-color:deepskyblue" id="ParkingDepartmentTextBox" />
                 </td>
             </tr>
             <tr>
                 <td>
                     <label style="margin-right: 25px">Ticket ID</label>
-                    <input style="border-color:deepskyblue" />
+                    <input style="border-color:deepskyblue" id="TicketIDTextBox" />
                 </td>
             </tr>
             <tr>
                 <td>
                     <label style="margin-right: 25px">Time of Day</label>
-                    <input style="border-color:deepskyblue" />
+                    <input style="border-color:deepskyblue" id="ToDTextBox" />
                 </td>
             </tr>
         </table>
@@ -74,9 +75,20 @@
         </form>
     </div>
 
+    <!--Used for testing input-->
+
+    <input type="button" value="Click Me" id="myButton" />
+
+    <script>
+        document.getElementById("myButton").onclick = function()
+{
+        window.alert(document.getElementById('NameTextBox').value);
+}
+    </script>
+
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
-    <!--random comment-->>
+    <!--random comment-->
 </body>
 </html>
