@@ -1,5 +1,7 @@
 ﻿body {
-    background-image: linear-gradient(to bottom right, green, white);
+    background-image: url("../../Resource/Claimy_Logo_OG.png");
+   
+    
 }
 
 h1 {
@@ -9,24 +11,24 @@ h1 {
 
 
 .informationBar {
-    background-color: black;
+    background-color: cornflowerblue;
     font-size: 25px;
 }
 
 .barItemButton {
-    background-color: black;
+    background-color: cornflowerblue;
     color: white;
 }
 
     .barItemButton:hover {
-        background-color: darkgray;
-        color: white;
+        background-color: cornflowerblue;
+        color: lightskyblue;
     }
 
 table, th {
     padding: 25px;
     text-align: left;
-    border: 5px solid gray;
+    border: 5px solid ;
 }
 
 td {
@@ -43,3 +45,4 @@ td {
     display: table;
     clear: both;
 }
+
