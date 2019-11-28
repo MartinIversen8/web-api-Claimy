@@ -225,6 +225,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\FrontPage.cshtml" />
+    <Content Include="Views\Shared\NavigationBar.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
