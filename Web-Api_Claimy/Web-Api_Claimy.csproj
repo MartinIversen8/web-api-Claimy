@@ -222,10 +222,14 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\HTML Pages\ClaimyFrontPage.cshtml" />
+    <Content Include="Views\HTML Pages\CreateAccount.cshtml" />
+    <Content Include="Views\HTML Pages\loginForm1.cshtml" />
+    <Content Include="Views\HTML Pages\MenuBar.cshtml" />
+    <None Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\FrontPage.cshtml" />
-    <Content Include="Views\Shared\NavigationBar.html" />
+    <None Include="Views\Shared\NavigationBar.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
